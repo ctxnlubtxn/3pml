@@ -1,0 +1,32 @@
+{
+    "name": "tokalink/starter",
+    "description": "Template Starter Laravel",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tokalink\\Starter\\": "src/",
+            "Tokalink\\Starter\\Helpers\\": "src/helpers/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tokalink"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "rap2hpoutre/fast-excel": "^5.2",
+        "barryvdh/laravel-dompdf": "^2.0",
+        "yajra/laravel-datatables-oracle": "^10.8"
+    },
+    "require-dev": {
+        "barryvdh/laravel-debugbar": "^3.9"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tokalink\\Starter\\Providers\\TokalinkProvider"
+            ]
+        }
+    }
+}
